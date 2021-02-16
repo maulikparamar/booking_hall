@@ -3,7 +3,7 @@
 session_start();
 if(isset($_SESSION['name']))
 {
-    header('location:home.php');
+    header('location:emp_home.php');
 }
 ?>
  <html lang="en"> <head>
